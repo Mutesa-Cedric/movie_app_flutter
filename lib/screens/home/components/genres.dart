@@ -9,9 +9,12 @@ class Genres extends StatelessWidget {
   Widget build(BuildContext context) {
     final List<String> genres = [
       "Action",
+      "Crime",
       "Comedy",
+      "Drama",
       "Horror",
       "Romance",
+      "Animation"
     ];
     return Container(
       margin: const EdgeInsets.symmetric(vertical: kDefaultPadding / 2),

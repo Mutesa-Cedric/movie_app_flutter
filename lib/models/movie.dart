@@ -2,7 +2,7 @@
 class Movie {
   final int id, year, numOfRatings, criticsReview, metascoreRating;
   final double rating;
-  final List<String> genra;
+  final List<String> genre;
   final String plot, title, poster, backdrop;
   final List<Map> cast;
 
@@ -16,7 +16,7 @@ class Movie {
     required this.criticsReview,
     required this.metascoreRating,
     required this.rating,
-    required this.genra,
+    required this.genre,
     required this.plot,
     required this.cast,
   });
@@ -34,7 +34,7 @@ List<Movie> movies = [
     rating: 7.3,
     criticsReview: 50,
     metascoreRating: 76,
-    genra: ["Action", "Drama"],
+    genre: ["Action", "Drama"],
     plot: plotText,
     cast: [
       {
@@ -69,7 +69,7 @@ List<Movie> movies = [
     rating: 8.2,
     criticsReview: 50,
     metascoreRating: 76,
-    genra: ["Action", "Biography", "Drama"],
+    genre: ["Action", "Biography", "Drama"],
     plot: plotText,
     cast: [
       {
@@ -104,7 +104,7 @@ List<Movie> movies = [
     rating: 7.6,
     criticsReview: 50,
     metascoreRating: 79,
-    genra: ["Action", "Drama"],
+    genre: ["Action", "Drama"],
     plot: plotText,
     cast: [
       {
